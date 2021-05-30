@@ -1,0 +1,5 @@
+Day 3 Tasks :-
+
+1. Create a Registration Form in PHP Which accept data from user and diplay data to next page.
+
+2. Create a Subject Mark Calculation Form Which accept Marks of 5 Subject from user and display 5 Subject Marks, Total Marks, Percentage and Status to next page. 

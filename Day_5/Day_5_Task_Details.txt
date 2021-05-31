@@ -1,0 +1,7 @@
+Day 5 Tasks :-
+
+1. Create a Numerical Array In PHP With Method-1 And Method-2.
+
+2. Create an Associative Array In PHP With Method-1 And Method-2.
+
+3. Create a PHP File Which Demonstrate All PHP Function Using Example.

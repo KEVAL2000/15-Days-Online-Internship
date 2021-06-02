@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Student Registration Form">
+    <meta name="author" content="Keval">
+    <meta name="keywords" content="Student Registration Form">
+
+    <!-- Title Page-->
+    <title>Student Registration Form</title>
+
+    <!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-4">
+                <div class="card-body">
+                    <h2 class="title">Student Registration Form</h2>
+                    <form method="POST" action="index.php">
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">first name</label>
+                                    <input class="input--style-4" type="text" name="st_fname" placeholder="Enter First Name..." required/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Middle name</label>
+                                    <input class="input--style-4" type="text" name="st_mname" placeholder="Enter Middle Name..." required/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">last name</label>
+                                    <input class="input--style-4" type="text" name="st_lname" placeholder="Enter Last Name..." required/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Age</label>
+                                    <input class="input--style-4" type="number" name="st_age" placeholder="Enter Age..." required/>
+                                </div>
+                            </div>        
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Date Of Birth</label>
+                                    <div class="input-group-icon">
+                                        <input class="input--style-4" type="date" value="2021-01-01" name="st_dob" required/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Gender</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Male
+                                            <input type="radio" value="Male" checked="checked" name="st_gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container">Female
+                                            <input type="radio" value="Female" name="st_gender">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Blood Group</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="st_bloodgroup" required>
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>A+</option>
+                                    <option>A-</option>
+                                    <option>B+</option>
+                                    <option>B-</option>
+                                    <option>O+</option>
+                                    <option>O-</option>
+                                    <option>AB+</option>
+                                    <option>AB-</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Email ID</label>
+                                    <input class="input--style-4" type="email" name="st_email" placeholder="Enter Email ID..." required/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Mobile Number</label>
+                                    <input class="input--style-4" type="text" name="st_mobile" placeholder="Enter Mobile Number..." required/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Password</label>
+                                    <input class="input--style-4" type="password" name="st_password" placeholder="Enter Password..." required/>
+                                </div>
+                            </div>
+                            
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Address</label>
+                                    <input class="input--style-4" type="text" name="st_address" placeholder="Enter Address..." required/>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="input-group">
+                            <label class="label">City</label>
+                            <div class="rs-select2 js-select-simple select--no-search">
+                                <select name="st_city" required>
+                                    <option disabled="disabled" selected="selected">Choose option</option>
+                                    <option>Ahmedabad</option>
+                                    <option>Amreli</option>
+                                    <option>Anand</option>
+                                    <option>Aravalli</option>
+                                    <option>Banaskantha</option>
+                                    <option>Bharuch</option>
+                                    <option>Bhavnagar</option>
+                                    <option>Dahod</option>
+                                    <option>Dang</option>	
+                                    <option>Gandhinagar</option>
+                                    <option>Jamnagar</option>
+                                    <option>Junagadh</option>
+                                    <option>Kutch</option>
+                                    <option>Kheda</option>
+                                    <option>Mehsana</option>
+                                    <option>Navsari</option>
+                                    <option>Narmada</option>
+                                    <option>Patan</option>
+                                    <option>Panchmahal</option>
+                                    <option>Porbandar</option>
+                                    <option>Rajkot</option>
+                                    <option>Sabarkantha</option>
+                                    <option>Surendranagar</option>
+                                    <option>Surat</option>
+                                    <option>Tapi</option>
+                                    <option>Vadodara</option>
+                                    <option>Valsad</option>
+                                </select>
+                                <div class="select-dropdown"></div>
+                            </div>
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <label class="label">Pincode</label>
+                                    <input class="input--style-4" type="number" name="st_pincode" placeholder="Enter Pincode..." required/>
+                                </div>
+                            </div>                   
+                        </div>
+                        <div class="p-t-15">
+                            <button class="btn btn--radius-2 btn--blue" type="submit" name="submit">Submit</button>
+                            <button class="btn btn--radius-2 btn--blue" type="reset" name="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Vendor JS-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <!-- Main JS-->
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

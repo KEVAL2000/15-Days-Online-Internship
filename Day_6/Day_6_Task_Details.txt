@@ -1,0 +1,7 @@
+Day 6 Tasks :-
+
+1. Create User Registration Form In PHP And Create Database Connection And Perform Insert Operation.
+
+2. Create Student Registration Form In PHP Using Html Theme Integration And Create Database Connection And Perform Insert Operation.
+
+3. Create Student Registration Form In PHP Without Html Theme Integration And Create Database Connection And Perform Insert Operation.

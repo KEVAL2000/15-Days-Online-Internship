@@ -1,0 +1,7 @@
+Day 7 Tasks :-
+
+1. Fetch Student Record Using Mysqli Fetch Row Function And Mysqli Fetch Array Function.
+
+2. Perform Display And Delete Opration In PHP With Html Theme Integration.
+
+3. Perform Display And Delete Operation In PHP Without Html Theme Integration.

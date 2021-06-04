@@ -2,6 +2,14 @@
 
     include "db_connection.php";
     
+    if (mysqli_connect_errno()) {
+  
+        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  
+        exit();
+
+    }
+    
     if(isset($_POST['submit'])){
 
         $st_fname = $_POST["st_fname"];
@@ -18,40 +26,25 @@
         $st_city = $_POST["st_city"];
         $st_pincode = $_POST["st_pincode"];
 
-        $query = mysqli_query($connection,"INSERT INTO 
-st_detail(
-st_fname,
-st_mname,
-st_lname,
-st_age,
-st_dob,
-st_gender,
-st_bloodgroup,
-st_email,
-st_mobile,
-st_password,
-st_address,
-st_city,
-st_pincode) 
-VALUES(
-'$st_fname',
-'$st_mname',
-'$st_lname',
-'$st_age',
-'$st_dob',
-'$st_gender',
-'$st_bloodgroup',
-'$st_email',
-'$st_mobile',
-'$st_password',
-'$st_address',
-'$st_city',
-'$st_pincode')")
- or die('Error'.mysqli_error($connection));
- 
-    }
+        $sql = "INSERT INTO st_detail(st_fname,
+               st_mname,st_lname,st_age,
+               st_dob,st_gender,st_bloodgroup,
+               st_email,st_mobile,st_password,
+               st_address,st_city,st_pincode) 
+               VALUES('$st_fname','$st_mname',
+               '$st_lname','$st_age','$st_dob',
+               '$st_gender','$st_bloodgroup',
+               '$st_email','$st_mobile','$st_password',
+               '$st_address','$st_city','$st_pincode')";
 
-    header("Location: index.html");
+        $query = mysqli_query($connection,$sql) or die(mysqli_error($connection));
+ 
+        if($query){
+ 
+            header("Location: index.html");
+
+        }
     
-    
+    }    
+
 ?>

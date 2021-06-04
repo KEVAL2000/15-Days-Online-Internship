@@ -14,5 +14,19 @@ select.form-control {
 }
 
 
-
+table{
+    width: 50%;
+}
     
+@media (min-width: 575.98px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-sm > .table-bordered {
+      border: 0;
+    }
+  }
+  

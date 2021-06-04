@@ -18,7 +18,7 @@
 ?>
 
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en" class="h-100 w-auto">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -32,7 +32,7 @@
     <title>List Of Student</title>
    
   </head>
-  <body class="d-flex flex-column h-100">
+  <body class="d-flex flex-column h-100 w-100">
     
     <div class="container pt-4 pb-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
@@ -57,7 +57,7 @@
     <main role="main" class="flex-shrink-0">
         <div class="container">
             <h1>List of Student</h1>
-            <table class="table table-striped table-hover table-responsive-xl">
+            <table class="table table-striped table-hover table-responsive-xl table-responsive-sm table-responsive-md table-responsive-lg">
                 <thead>
                     <tr>
                     <th scope="col">First Name</th>

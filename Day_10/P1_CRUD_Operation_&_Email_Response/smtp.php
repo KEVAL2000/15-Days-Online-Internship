@@ -1,6 +1,7 @@
 <?php
      
-    include('smtp/PHPMailerAutoload.php');
+    include('smtp/PHPMailerAutoload.php');
+
    
     function smtp_mailer($to,$subject,$message){
 
@@ -13,8 +14,8 @@
        	$mail->Port = 587; 
        	$mail->IsHTML(true);
        	$mail->CharSet = 'UTF-8';
-       	$mail->Username = "test.keval.parmar@gmail.com";
-       	$mail->Password = "haxuduygadojanip";
+       	$mail->Username = "username";
+       	$mail->Password = "password";
        	$mail->SetFrom("test.keval.parmar@gmail.com");
        	$mail->Subject = $subject;
        	$mail->Body =$message;

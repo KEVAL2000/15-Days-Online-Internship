@@ -11,7 +11,7 @@
        	$mail->IsHTML(true);
        	$mail->CharSet = 'UTF-8';
        	$mail->Username = "test.keval.parmar@gmail.com";
-       	$mail->Password = "haxuduygadojanip";
+       	$mail->Password = "";
        	$mail->SetFrom("test.keval.parmar@gmail.com");
        	$mail->Subject = $subject;
        	$mail->Body =$message;

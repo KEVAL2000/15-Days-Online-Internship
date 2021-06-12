@@ -124,7 +124,8 @@
 
          .col-50 
          {
-            float: right;
+            float: right;
+
             margin-bottom: 10px;
          }
 
@@ -145,7 +146,7 @@
                         <a class="nav-link" href="home.php">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="register.php">Student Register </a>
+                        <a class="nav-link" href="home.php">Student Register </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="admin-login.php">Admin Login </a>

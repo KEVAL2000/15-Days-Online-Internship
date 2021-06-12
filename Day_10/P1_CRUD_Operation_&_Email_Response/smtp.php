@@ -14,8 +14,8 @@
        	$mail->Port = 587; 
        	$mail->IsHTML(true);
        	$mail->CharSet = 'UTF-8';
-       	$mail->Username = "username";
-       	$mail->Password = "password";
+       	$mail->Username = "test.keval.parmar@gmail.com";
+       	$mail->Password = "";
        	$mail->SetFrom("test.keval.parmar@gmail.com");
        	$mail->Subject = $subject;
        	$mail->Body =$message;

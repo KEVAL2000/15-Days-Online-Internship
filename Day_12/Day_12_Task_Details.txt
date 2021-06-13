@@ -1,0 +1,3 @@
+Day 12 Tasks :-
+
+1. Create Wordpress Website which include Home Page, News Page, About Page, Contact Page, & Tutorial Page.

@@ -61,7 +61,8 @@
 
          .col-50 
          {
-            float: right;
+            float: right;
+
             margin-bottom: 10px;
          }
 
@@ -87,9 +88,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="login.php">Student Login </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="forgot-password-request.php">Forgot Password </a>
-                    </li>              
+                    </li>               -->
                 </ul>
             </div>
         </nav>

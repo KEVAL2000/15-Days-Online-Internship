@@ -96,7 +96,8 @@
 
          .col-50 
          {
-            float: right;
+            float: right;
+
             margin-bottom: 10px;
          }
 
@@ -122,9 +123,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="admin-login.php">Admin Login </a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="forgot-password-request.php">Forgot Password </a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </nav>
@@ -157,11 +158,11 @@
                 <label style="margin-top:5px;">For Admin</label>
                 
                 <a href="admin-login.php" class="btn btn-primary col-50">Login Now!</a>
-                <br/>
+                <!-- <br/>
                 <br/>
                 <label style="margin-top:5px;">Not Remembered Password ?</label>
                 
-                <a href="forgot-password-request.php" class="btn btn-primary col-50">Forgot Password Now!</a>
+                <a href="forgot-password-request.php" class="btn btn-primary col-50">Forgot Password Now!</a> -->
             </form>
         </div>
     </main>
